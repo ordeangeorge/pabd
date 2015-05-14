@@ -6,10 +6,15 @@ acme_website:
     resource: "@AcmeDemoBundle/Resources/config/routing.yml"
     prefix:   /
 
+acme_cristi:
+    path: /Studenti/BaciuWahlCristian
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    CristiBaciu.html.twig
+
 acme_iulian:
     path: studenti/iulian
     defaults:
         _controller: FrameworkBundle:Template:template
         template:    iulian.html.twig
-
 
