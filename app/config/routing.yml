@@ -1,3 +1,9 @@
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+acme_privacy:
+    path: /Studenti/BaciuWahlCristian
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    CristiBaciu.html.twig
