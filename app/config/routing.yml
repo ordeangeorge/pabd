@@ -2,7 +2,7 @@ app:
     resource: "@AppBundle/Controller/"
     type:     annotation
 
-acme_privacy:
+acme_cristi:
     path: /Studenti/BaciuWahlCristian
     defaults:
         _controller: FrameworkBundle:Template:template
