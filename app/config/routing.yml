@@ -2,16 +2,15 @@ app:
     resource: "@AppBundle/Controller/"
     type:     annotation
 
-<<<<<<< HEAD
+acme_website:
+    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+    prefix:   /
+
 acme_cristi:
     path: /Studenti/BaciuWahlCristian
     defaults:
         _controller: FrameworkBundle:Template:template
         template:    CristiBaciu.html.twig
-=======
-acme_website:
-    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
-    prefix:   /
 
 acme_iulian:
     path: studenti/iulian
@@ -19,5 +18,3 @@ acme_iulian:
         _controller: FrameworkBundle:Template:template
         template:    iulian.html.twig
 
-
->>>>>>> 972bbdf2ae8e23ec99ce3fc19348240d35b9261f
