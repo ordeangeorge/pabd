@@ -18,3 +18,10 @@ acme_iulian:
         _controller: FrameworkBundle:Template:template
         template:    iulian.html.twig
 
+acme_delia:
+    path: /studenti/DeliaGiurgiu
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    DeliaGiurgiu.html.twig
+
+
