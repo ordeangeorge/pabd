@@ -24,4 +24,8 @@ acme_delia:
         _controller: FrameworkBundle:Template:template
         template:    DeliaGiurgiu.html.twig
 
-
+acme_george:
+    path: studenti/PodaruGeorge
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    PodaruGeorge.html.twig
