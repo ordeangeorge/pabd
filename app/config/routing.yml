@@ -18,3 +18,8 @@ acme_iulian:
         _controller: FrameworkBundle:Template:template
         template:    iulian.html.twig
 
+acme_george:
+    path: studenti/PodaruGeorge
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    PodaruGeorge.html.twig
