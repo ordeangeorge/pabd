@@ -1,3 +1,5 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+pro:
+    path: studenti/TeglasMaria
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    TeglasMaria.html.twig
