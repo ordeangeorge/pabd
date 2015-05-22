@@ -29,3 +29,9 @@ acme_george:
     defaults:
         _controller: FrameworkBundle:Template:template
         template:    PodaruGeorge.html.twig
+        
+adrian_rosian:
+    path: studenti/adrian-rosian
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    adrianrosian.html.twig
