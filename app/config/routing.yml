@@ -29,3 +29,9 @@ acme_george:
     defaults:
         _controller: FrameworkBundle:Template:template
         template:    PodaruGeorge.html.twig
+
+floreamihaela:
+    path: studenti/floreamihaela
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    floreamihaela.html.twig
