@@ -35,3 +35,8 @@ floreamihaela:
     defaults:
         _controller: FrameworkBundle:Template:template
         template:    floreamihaela.html.twig
+Laura-Floare:
+    path: studenti/LauraFloare
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    LauraFloare.html.twig
