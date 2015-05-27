@@ -1,3 +1,43 @@
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+acme_website:
+    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+    prefix:   /
+
+acme_cristi:
+    path: /Studenti/BaciuWahlCristian
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    CristiBaciu.html.twig
+
+acme_iulian:
+    path: studenti/iulian
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    iulian.html.twig
+
+acme_delia:
+    path: /studenti/DeliaGiurgiu
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    DeliaGiurgiu.html.twig
+
+acme_george:
+    path: studenti/PodaruGeorge
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    PodaruGeorge.html.twig
+
+floreamihaela:
+    path: studenti/floreamihaela
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    floreamihaela.html.twig
+        
+adrian_rosian:
+    path: studenti/adrian-rosian
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    adrianrosian.html.twig

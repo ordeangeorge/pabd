@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Pagina Personala</title>
+<link href="{{ asset('PodaruGeorge/css/style.css') }}" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        {% block body %}
+	<h1>Welcome Podaru George</h1>
+	<h2>mai/2015</h2>
+	<image src="{{ asset('PodaruGeorge/images/background.png') }}"/>
+	<div class=aboveDiv>
+		<p>test</p>
+		<p>test</p>
+		<image src="{{ asset('PodaruGeorge/images/terminal.png') }}" class="imageAbove"/>
+		<p>test</p>
+		<ul>
+    			<li>test1</li>
+    			<li>test1</li>
+		</ul>
+	{% endblock %}
+    </body>
+</html>
