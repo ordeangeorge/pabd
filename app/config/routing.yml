@@ -1,3 +1,8 @@
+adrian_contact:
+    resource: "@AdrianContactBundle/Controller/"
+    type:     annotation
+    prefix:   /adrian
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
