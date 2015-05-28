@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Bine ai venit, Licinius!{% endblock %}</title>
+	{% block stylesheets %}
+		<link href="{{ asset('LiciniusUngur/css/style.css') }}" rel="stylesheet" type="text/css" />
+	{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+
+<body>
+{% block body %}
+	<div id="container">
+		<h1 id="h1">O pagina facuta cu amuzament!</h1>
+		<h2 id="h2">Permite-ti-mi sa va prezint cativa super-eroi(discutabil).</h2>
+
+		<p>Decat Lorem Ipsum m-am gandit ca ar fi mai amuzant sa scriu cate ceva ce imi place despre universul benzilor desenate Marvel.</p>
+		
+		<p>In mod special vom vedea cateva personaje din X-Men:</p>
+
+		<ul>
+			<li>Cyclops <br/> <image src="{{ asset('LiciniusUngur/images/cyclops.jpg') }}" class="listImage"></li>
+			<li>Nightcrawler <br/> <image src="{{ asset('LiciniusUngur/images/nightcrawler.jpg') }}" class="listImage"></li>
+			<li>Iceman <br/> <image src="{{ asset('LiciniusUngur/images/iceman.jpg') }}" class="listImage"></li>
+			<li>Un exemplar incomfundabil de Homo Sapiens Superior <br/> <image src="{{ asset('LiciniusUngur/images/magneto.jpg') }}" class="listImage"></li>
+		</ul>
+		
+		<div id="sfarsit">
+			<h3 id="h3">Doar filler.</h3>
+
+			<image src="{{ asset('LiciniusUngur/images/xmen.jpg') }}" id="xmen">
+			<p>Era inevitabil. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in vestibulum nisl, nec imperdiet ligula. Nulla a ante in eros pretium vestibulum eu quis augue. Donec semper tempor elit, et pharetra dui semper non. Etiam fringilla lobortis sapien ut feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent et nulla ac sapien suscipit maximus. Etiam lectus lorem, vehicula consectetur justo et, ultricies blandit arcu. Vivamus dignissim arcu at quam lobortis, a aliquet risus egestas. Praesent dictum eu tortor at lacinia. </p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in vestibulum nisl, nec imperdiet ligula. Nulla a ante in eros pretium vestibulum eu quis augue. Donec semper tempor elit, et pharetra dui semper non. Etiam fringilla lobortis sapien ut feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent et nulla ac sapien suscipit maximus. Etiam lectus lorem, vehicula consectetur justo et, ultricies blandit arcu. Vivamus dignissim arcu at quam lobortis, a aliquet risus egestas. Praesent dictum eu tortor at lacinia. </p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in vestibulum nisl, nec imperdiet ligula. Nulla a ante in eros pretium vestibulum eu quis augue. Donec semper tempor elit, et pharetra dui semper non. Etiam fringilla lobortis sapien ut feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent et nulla ac sapien suscipit maximus. Etiam lectus lorem, vehicula consectetur justo et, ultricies blandit arcu. Vivamus dignissim arcu at quam lobortis, a aliquet risus egestas. Praesent dictum eu tortor at lacinia. </p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in vestibulum nisl, nec imperdiet ligula. Nulla a ante in eros pretium vestibulum eu quis augue. Donec semper tempor elit, et pharetra dui semper non. Etiam fringilla lobortis sapien ut feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent et nulla ac sapien suscipit maximus. Etiam lectus lorem, vehicula consectetur justo et, ultricies blandit arcu. Vivamus dignissim arcu at quam lobortis, a aliquet risus egestas. Praesent dictum eu tortor at lacinia. </p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in vestibulum nisl, nec imperdiet ligula. Nulla a ante in eros pretium vestibulum eu quis augue. Donec semper tempor elit, et pharetra dui semper non. Etiam fringilla lobortis sapien ut feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent et nulla ac sapien suscipit maximus. Etiam lectus lorem, vehicula consectetur justo et, ultricies blandit arcu. Vivamus dignissim arcu at quam lobortis, a aliquet risus egestas. Praesent dictum eu tortor at lacinia. </p>
+		</div>
+	</div>
+{% endblock %}       
+</body>
+
+</html>

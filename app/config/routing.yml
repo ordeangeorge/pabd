@@ -1,3 +1,8 @@
+adrian_contact:
+    resource: "@AdrianContactBundle/Controller/"
+    type:     annotation
+    prefix:   /adrian
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
@@ -5,6 +10,12 @@ app:
 acme_website:
     resource: "@AcmeDemoBundle/Resources/config/routing.yml"
     prefix:   /
+
+mariateglas:
+    path: studenti/TeglasMaria
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    mariateglas.html.twig
 
 acme_cristi:
     path: /Studenti/BaciuWahlCristian
@@ -30,13 +41,39 @@ acme_george:
         _controller: FrameworkBundle:Template:template
         template:    PodaruGeorge.html.twig
 
+cucui_alina:
+    path: studenti/AlinaCucui
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    AlinaCucui.html.twig
+
+
 floreamihaela:
     path: studenti/floreamihaela
     defaults:
         _controller: FrameworkBundle:Template:template
         template:    floreamihaela.html.twig
+        
+adrian_rosian:
+    path: studenti/adrian-rosian
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    adrianrosian.html.twig
+
 Laura-Floare:
     path: studenti/LauraFloare
     defaults:
         _controller: FrameworkBundle:Template:template
         template:    LauraFloare.html.twig
+
+ordean_george:
+    path: studenti/ordeangeorge
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    ordeangeorge.html.twig
+
+licinius_ungur:
+    path: studenti/LiciniusUngur
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    LiciniusUngur.html.twig
