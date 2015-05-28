@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}UngureanuVlad-Pagina Personala {% endblock %}</title>
+<link href="{{ asset('UngureanuVlad/css/UngureanuVlad.css') }}" rel="stylesheet" type="text/css" />
+</head>
+<body>
+{% block body %}
+
+
+<div class="Content">
+	<h1 class="h1">Bine ai venit, Ungureanu Vlad !</h1>
+	<h2 class="h2">Informatii studiu</h2>
+<div class="leftSection">
+<image src="{{ asset('UngureanuVlad/images/image.jpg') }}" class="image
+leftSection"/>
+</div>
+<div class="firstp">
+
+<p class="p1">LICENTA</p>
+<ul>
+    <li>Universitatea "1 Decembrie 1918" din Alba-Iulia</li>
+    <li>Facultatea de Stiinte Exacte si Ingineresti</li>
+    <li>Domeniul: Informatica</li>
+    <li>Specializarea: Informatica</li>
+    <li>Perioada: 2010-2013</li>
+</ul>
+</div>
+<div class="secondp">
+
+<p class="p1">MASTER</p>
+<ul>
+    <li>Universitatea "1 Decembrie 1918" din Alba-Iulia</li>
+    <li>Facultatea de Stiinte Exacte si Ingineresti</li>
+    <li>Domeniul: Informatica</li>
+    <li>Specializarea: Programare Avansata si Baze de Date</li>
+    <li>Perioada: 2013-2015</li>
+</ul>
+</div>
+</div>
+
+
+{% endblock %}       
+</body>
+</html>

@@ -77,3 +77,9 @@ licinius_ungur:
     defaults:
         _controller: FrameworkBundle:Template:template
         template:    LiciniusUngur.html.twig
+
+UngureanuVlad:
+    path: studenti/UngueranuVlad
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    UngureanuVlad.html.twig
