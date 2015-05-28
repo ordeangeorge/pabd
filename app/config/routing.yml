@@ -11,6 +11,12 @@ acme_website:
     resource: "@AcmeDemoBundle/Resources/config/routing.yml"
     prefix:   /
 
+mariateglas:
+    path: studenti/TeglasMaria
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    mariateglas.html.twig
+
 acme_cristi:
     path: /Studenti/BaciuWahlCristian
     defaults:
