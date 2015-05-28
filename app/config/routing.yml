@@ -41,3 +41,9 @@ adrian_rosian:
     defaults:
         _controller: FrameworkBundle:Template:template
         template:    adrianrosian.html.twig
+
+licinius_ungur:
+    path: studenti/LiciniusUngur
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    LiciniusUngur.html.twig

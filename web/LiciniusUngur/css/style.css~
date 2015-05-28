@@ -1,0 +1,54 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	text-align: center;
+	background-color: cyan;
+}
+
+#h1{
+	font-size: 32px;
+	color: red;
+}
+
+#h2{
+	color: black;
+}
+
+#h3{
+	font-size: 24px;
+	color: purple;
+}
+
+p{
+	text-align: justify;
+}
+
+#container {
+	position: absolute;
+	height: auto;
+	width: 940px;
+	padding: 10px;
+	border: 1px solid yellow;
+	margin: 10px auto;
+	background-color: white;
+}
+
+li{
+	float: left;
+	margin: 10px 20px 10px;
+}
+
+.listImage {
+	height: 200px;
+	width: auto;
+}
+
+#sfarsit{
+	clear: both;
+	padding-top: 50px;
+}
+
+#xmen {
+	float: left;
+	margin: 10px 10px 10px 0px;
+}
