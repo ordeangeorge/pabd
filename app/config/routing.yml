@@ -29,17 +29,16 @@ acme_george:
     defaults:
         _controller: FrameworkBundle:Template:template
         template:    PodaruGeorge.html.twig
-<<<<<<< HEAD
+
 cucui_alina:
     path: studenti/AlinaCucui
     defaults:
         _controller: FrameworkBundle:Template:template
         template:    AlinaCucui.html.twig
-=======
+
 
 floreamihaela:
     path: studenti/floreamihaela
     defaults:
         _controller: FrameworkBundle:Template:template
         template:    floreamihaela.html.twig
->>>>>>> 433b6f1753494a8f4dfa4565cb8256e0c9b2b180
