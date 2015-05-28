@@ -41,3 +41,9 @@ adrian_rosian:
     defaults:
         _controller: FrameworkBundle:Template:template
         template:    adrianrosian.html.twig
+
+ordean_george:
+    path: studenti/ordeangeorge
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    ordeangeorge.html.twig

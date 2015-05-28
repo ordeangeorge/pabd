@@ -1,0 +1,42 @@
+body {
+	text-align: center;
+	color: green;
+	background-color: blue;
+}
+
+#wrapper {
+	width: 80%;
+}
+
+#inceput {
+	color: black;
+	background-color: white;
+}
+
+#scrismare {
+	font-size: 32px;
+}
+
+#scrismic {
+	font-size: 10px;
+}
+
+#asezarestanga {
+	float: left;
+	text-align: justify;
+	background-color: white;
+}
+
+#asezaredreapta {
+}
+
+#imagine {
+	height: 150px;
+	width: auto;
+}
+
+#listahobby {
+	clear: both;
+	color: orchid;
+	background-color: white;
+}
