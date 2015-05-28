@@ -47,3 +47,9 @@ ordean_george:
     defaults:
         _controller: FrameworkBundle:Template:template
         template:    ordeangeorge.html.twig
+
+licinius_ungur:
+    path: studenti/LiciniusUngur
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    LiciniusUngur.html.twig
