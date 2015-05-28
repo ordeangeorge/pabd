@@ -37,7 +37,7 @@ class DefaultController extends Controller
 
             $request->getSession()->getFlashBag()->set('notice', 'Message sent!');
 
-            return new RedirectResponse($this->generateUrl('/'));
+            return new RedirectResponse($this->generateUrl('adrian_rosian'));
         }
 
         return array('form' => $form->createView());
