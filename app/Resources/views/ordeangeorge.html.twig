@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Bine ati venit pe pagina mea!{% endblock %}</title>
+        {% block stylesheets %}
+			<link href="{{ asset('ordeangeorge/css/ordeangeorge.css') }}" rel="stylesheet" type="text/css" />
+		{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+	
+    <body>
+	{% block body %}
+	<div id="wrapper">
+		<div id="inceput">
+			<h1 id="scrismare"> Pagina Personala George Ordean</h1>
+			<h2 id="scrismic"> Some informations about me</h2>
+		</div>
+		
+		<div id="asezarestanga">
+			<p>
+			Aceasta este prima informatie despre mine...blablabla(primul paragraf)
+			</p>
+			<p>
+			Aceasta a doua informatie despre mine ....nanana(al doilea paragraf)
+			</p>
+			<p>
+			Aceasta este a treia informatie despre mine ....sigur ca da (al treilea paragraf)
+			</p>
+			<p>
+			Aceasta este a patra si ultima informartie despre mine (finish)
+			</p>
+		</div>
+
+		<div id="asezaredreapta">
+			<image src="{{ asset('ordeangeorge/images/poza.jpg') }}" id="imagine"/>
+		</div>
+
+		<div id="listahobby">
+			<p> Hobby-uri</p>
+			<ul>
+				<li>Fotbal</li>
+				<li>Tenis</li>
+				<li>Rugby</li>
+				<li>Tenis de masa</li>
+			</ul>
+		</div>
+	</div>
+	{% endblock %}
+	{% block javascripts %}{% endblock %}
+    </body>
+</html>
