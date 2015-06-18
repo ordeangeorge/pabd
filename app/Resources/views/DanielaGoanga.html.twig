@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Daniela Alexandra-pagina personala student{% endblock %}</title>
+<link href="{{ asset('DanielaGoanga/css/DanielaGoanga.css') }}" rel="stylesheet" type="text/css" />
+</head>
+<body>
+{% block body %}
+
+
+<div class="divContent">
+	<h3 class="h3_title">Universitatea "1 Decembrie 1918" Alba Iulia !</h1>
+	<h1 class="h1_title">Welcome, Daniela Alexandra Goanga !</h1>
+	<h2 class="h2_title">Aceasta pagina contine datele generale ale profilului tau de student</h2>
+	<hr>	
+	
+<div class="leftSection">
+<image src="{{ asset('DanielaGoanga/images/DanielaGoanga.jpg') }}" class="image leftSection"/>
+</div>
+<div class="rightSection">
+<p>Nume si prenume: Goanga Daniela-Alexandra</p>
+<p>Specialzare: Programare Avansata de Baze de Date</p>
+<p>An studii: II</p>
+<p>Facultatea: de Stiinte </p>
+<p>Materii studiate:</p>
+<ul>
+    <li>Baze de date orientate obiect</li>
+    <li>Programare orientata pe componente</li>
+    <li>Medii vizuale de programare</li>
+    <li>Auditul sistemelor informatice</li>
+    <li>Proiect software in echipa</li>
+</ul>
+
+</div>
+</div>
+
+
+{% endblock %}       
+</body>
+</html>
