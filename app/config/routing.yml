@@ -60,6 +60,12 @@ adrian_rosian:
         _controller: FrameworkBundle:Template:template
         template:    adrianrosian.html.twig
 
+DanielaGoanga:
+    path: studenti/DanielaGoanga
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template:    DanielaGoanga.html.twig
+
 Laura-Floare:
     path: studenti/LauraFloare
     defaults:
@@ -77,6 +83,7 @@ licinius_ungur:
     defaults:
         _controller: FrameworkBundle:Template:template
         template:    LiciniusUngur.html.twig
+
 
 UngureanuVlad:
     path: studenti/UngueranuVlad
