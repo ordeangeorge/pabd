@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Bine ati venit la pagina mea!{% endblock %}</title>
+        {% block stylesheets %}
+			<link href="{{ asset('catalinaldea/css/catalinaldea.css') }}" rel="stylesheet" type="text/css" />
+		{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+	
+    <body>
+	{% block body %}
+	<div id="wrapper">
+		<div id="inceput">
+			<h1 id="scrismare"> Pagina lui Catalin</h1>
+			<h2 id="scrismic"> Imi place DOTA2 si Informatica</h2>
+		</div>
+		
+		<div id="divstanga">
+			<p>
+			Imi place Drow Ranger, Axe si alti eroi care dau tare in inamic.
+			</p>
+			<p>
+			Nu am asa de mult timp liber din cauza serviciului asa ca e mai distractiv sa fiu carry.
+			</p>
+			<p>
+			Cand nu lucrez sau ma joc DOTA2, lucrez la proiectul de Master.
+			</p>
+			<p>
+			Este un joc mic tip Tower Defense. :)
+			</p>
+		</div>
+
+		<div id="divdreapta">
+			<image src="{{ asset('catalinaldea/images/axe.jpeg') }}" id="imagine"/>
+		</div>
+
+		<div id="dota2pro">
+			<p>Strategia expert</p>
+			<ul>
+				<li>Last hit</li>
+				<li>Harass</li>
+				<li>Buy good</li>
+				<li>Take team fights</li>
+			</ul>
+		</div>
+	</div>
+	{% endblock %}
+	{% block javascripts %}{% endblock %}
+    </body>
+</html>
