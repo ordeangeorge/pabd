@@ -1,0 +1,41 @@
+body {
+	text-align: center;
+	color: red;
+	background-color: black;
+}
+
+#wrapper {
+	width: 80%;
+}
+
+#inceput {
+	color: black;
+	background-color: white;
+}
+
+#scrismare {
+	font-size: 32px;
+}
+
+#scrismic {
+	font-size: 10px;
+}
+
+#divstanga {
+	float: left;
+	text-align: justify;
+}
+
+#divdreapta {
+	float: right;
+}
+
+#imagine {
+	height: 150px;
+	width: auto;
+}
+
+#dota2pro {
+	color: pink;
+	background-color: black;
+}
